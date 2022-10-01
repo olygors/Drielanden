@@ -1,0 +1,45 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+ul{list-style:none}
+button,input,select{margin:0}
+html{box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+img,video{height:auto;max-width:100%}
+iframe{border:0}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0}
+
+/*  MAIN  */
+
+.map {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.adress {
+    text-align: center;
+}
+.adress-item:not(:last-child) {
+    margin-right: 20px;
+}
+.email {
+    display: inline-block;
+    border-radius: 180px;
+    height: 180px;
+    width: 180px;
+    background: yellow;
+    padding-top: 81px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.telephone {
+    display: inline-block;
+    border-radius: 180px;
+    height: 180px;
+    width: 180px;
+    background: yellow;
+    padding-top: 81px;
+    text-align: center;
+    box-sizing: border-box;
+}
